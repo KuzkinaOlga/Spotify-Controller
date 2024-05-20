@@ -21,6 +21,7 @@ module.exports = {
   optimization: {
     minimize: true,
   },
+  watch: true,
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
